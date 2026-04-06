@@ -11,7 +11,7 @@ This project implements a machine learning system designed to identify malicious
 ## Project Structure
 .
 ├── scam_detection.ipynb   # Main Jupyter Notebook
-├── datasets/              # Folder containing SMS CSV/TSV files
+├── datasets/              # Folder containing SMS CSV files
 └── README.md              # Project documentation
 
 ## Installation & Requirements
@@ -20,7 +20,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 
 
 ## How it works
-Supervised Phase: The model trains on a labeled dataset to learn the word distributions for "scam" vs "ham" (legitimate) messages.
+Supervised Phase: The model trains on a labeled dataset to learn the word distributions for scam vs legitimate messages.
 
 Probability Thresholding: The program calculates an "r-score" (ratio of probabilities) to determine how confident the model is about a specific prediction.
 
